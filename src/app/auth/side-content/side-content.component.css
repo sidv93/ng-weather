@@ -1,0 +1,53 @@
+.aside_content {
+    background: url(https://source.unsplash.com/random/1200x900?mountain) center center/cover no-repeat;
+    flex: 2;
+    display: flex;
+    flex-direction: column-reverse;
+    position: relative;
+    border-radius: 0 15px 15px 0;
+}
+
+.aside_overlay {
+    position: absolute;
+    top: 0;
+    left: 0;
+    height: 100%;
+    width: 100%;
+    background-color: rgba(0, 0, 0, 0.15);
+    border-radius: 0 15px 15px 0;
+}
+
+.content_container {
+    margin-bottom: 100px;
+    background: url(https://source.unsplash.com/random/1200x900?mountain) center center/cover no-repeat;
+    /* flex: 2; */
+    display: flex;
+    flex-direction: column-reverse;
+    position: relative;
+    border-radius: 0 15px 15px 0;
+}
+
+.welcome_text {
+    display: block;
+    color: white;
+    font-size: 50px;
+    font-weight: 600;
+    margin-left: 75px;
+    margin-bottom: 30px;
+    animation: slide_in_right 0.5s ease-in;
+}
+
+.underline {
+    height: 10px;
+    width: 200px;
+    background: white;
+    margin: 0;
+    margin-left: 75px;
+    animation: slide_in_right 0.5s ease-in;
+}
+
+@keyframes slide_in_right {
+    from {
+        transform: translateX(-75px);
+    }
+}

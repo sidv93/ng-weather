@@ -2,11 +2,11 @@ import { Component, OnInit } from '@angular/core';
 import { FormGroup, FormBuilder, Validators } from '@angular/forms';
 
 @Component({
-  selector: 'app-login-card',
-  templateUrl: './login-card.component.html',
-  styleUrls: ['./login-card.component.css']
+  selector: 'app-signup',
+  templateUrl: './signup.component.html',
+  styleUrls: ['./signup.component.css']
 })
-export class LoginCardComponent implements OnInit {
+export class SignupComponent implements OnInit {
 
   public myForm: FormGroup;
 
@@ -19,8 +19,7 @@ export class LoginCardComponent implements OnInit {
     });
   }
 
-  public login() {
+  public signup() {
     console.log(this.myForm.value);
   }
-
 }
