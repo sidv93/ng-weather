@@ -3,7 +3,7 @@
         <div class="form_container">
             <span class="login_title">Login</span>
             <form class="login_form" [formGroup]="myForm" (ngSubmit)="login()">
-                <input type="text" class="login_username" placeholder="Username" formControlName="username">
+                <input type="text" class="login_email" placeholder="Email" formControlName="email">
                 <input type="password" class="login_password" placeholder="Password" formControlName="password">
                 <input type="submit" class="login_submit" value="login">
             </form>

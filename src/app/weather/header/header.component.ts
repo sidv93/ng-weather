@@ -1,4 +1,5 @@
 import { Component, OnInit } from '@angular/core';
+import { GlobalService } from 'src/app/services/global.service';
 
 @Component({
   selector: 'app-header',
@@ -7,9 +8,13 @@ import { Component, OnInit } from '@angular/core';
 })
 export class HeaderComponent implements OnInit {
 
-  constructor() { }
+  constructor(public globalService: GlobalService) { }
 
   ngOnInit() {
+  }
+
+  toggleDarkMode() {
+    this.globalService.darkMode = !this.globalService.darkMode;
   }
 
 }

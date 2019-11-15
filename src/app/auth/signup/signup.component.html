@@ -3,7 +3,7 @@
         <div class="form_container">
             <span class="signup_title">Signup</span>
             <form class="signup_form" [formGroup]="myForm" (ngSubmit)="signup()">
-                <input type="text" class="signup_username" placeholder="Username" formControlName="username">
+                <input type="text" class="signup_email" placeholder="Email" formControlName="email">
                 <input type="password" class="signup_password" placeholder="Password" formControlName="password">
                 <input type="submit" class="signup_submit" value="Signup">
             </form>
