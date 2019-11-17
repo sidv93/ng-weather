@@ -1,0 +1,61 @@
+.container {
+    min-height: 70vh;
+    width: 25vw;
+    background: white;
+    border-radius: 25px;
+    cursor: pointer;
+    padding: 20px;
+    display: grid;
+    grid-template-rows: 0.7fr 1fr 1fr 1fr;
+}
+
+.city_name {
+    text-align: center;
+    padding-top: 30px;
+}
+
+.city_text {
+    letter-spacing: 2px;
+}
+
+.weather_icon {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 40%;
+    padding-left: 30%;
+}
+
+.weather_icon > * {
+    flex: 1;
+}
+
+.temperature {
+    text-align: center;
+    padding: 15px;
+}
+
+.temperature_text {
+    font-size: 40px;
+    display: block;
+}
+
+.weather_condition {
+    display: block;
+}
+
+.min_max_container {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    border-radius: 0 0 25px 25px;
+}
+
+.min_arrow_icon, .max_arrow_icon {
+    height: 25px;
+    padding-left: 43%;
+}
+
+.temperature_value, .min_max_value {
+    text-align: center;
+}
+  

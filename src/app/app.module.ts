@@ -16,6 +16,7 @@ import { router } from './app.routing';
 import { MainContentComponent } from './auth/main-content/main-content.component';
 import { SideContentComponent } from './auth/side-content/side-content.component';
 import { WeatherComponent } from './weather/weather.component';
+import { WeatherCardComponent } from './weather/weather-card/weather-card.component';
 
 @NgModule({
   declarations: [
@@ -27,7 +28,8 @@ import { WeatherComponent } from './weather/weather.component';
     SignupComponent,
     MainContentComponent,
     SideContentComponent,
-    WeatherComponent
+    WeatherComponent,
+    WeatherCardComponent,
   ],
   imports: [
     BrowserModule,
