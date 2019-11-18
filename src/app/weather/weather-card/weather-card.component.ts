@@ -7,7 +7,7 @@ import { Component, OnInit } from '@angular/core';
 })
 export class WeatherCardComponent implements OnInit {
 
-  public state= "Sunny";
+  public state= "Storm";
   constructor() { }
 
   ngOnInit() {

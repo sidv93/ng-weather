@@ -8,7 +8,7 @@ import { environment } from '../environments/environment';
 
 import { AppComponent } from './app.component';
 import { HeaderComponent } from './weather/header/header.component';
-import { ContentComponent } from './weather/content/content.component';
+import { WeatherHomeComponent } from './weather/weather-home/weather-home.component';
 import { AuthComponent } from './auth/auth.component';
 import { LoginComponent } from './auth/login/login.component';
 import { SignupComponent } from './auth/signup/signup.component';
@@ -17,12 +17,14 @@ import { MainContentComponent } from './auth/main-content/main-content.component
 import { SideContentComponent } from './auth/side-content/side-content.component';
 import { WeatherComponent } from './weather/weather.component';
 import { WeatherCardComponent } from './weather/weather-card/weather-card.component';
+import { WeatherDetailsComponent } from './weather/weather-details/weather-details.component';
+import { AddCityComponent } from './weather/add-city/add-city.component';
 
 @NgModule({
   declarations: [
     AppComponent,
     HeaderComponent,
-    ContentComponent,
+    WeatherHomeComponent,
     AuthComponent,
     LoginComponent,
     SignupComponent,
@@ -30,6 +32,8 @@ import { WeatherCardComponent } from './weather/weather-card/weather-card.compon
     SideContentComponent,
     WeatherComponent,
     WeatherCardComponent,
+    WeatherDetailsComponent,
+    AddCityComponent,
   ],
   imports: [
     BrowserModule,

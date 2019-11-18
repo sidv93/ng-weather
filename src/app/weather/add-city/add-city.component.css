@@ -1,0 +1,184 @@
+.container {
+    height: 80vh;
+    width: 80vw;
+    background-color: #fff;
+    position: relative;
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    border-radius: 25px;
+}
+
+.city_search {
+    border-radius: 25px 0 0 25px;
+    display: grid;
+    grid-template-rows: 0.7fr 1fr 0.5fr 4fr;
+    padding: 20px 10px;
+}
+
+.search_container {
+    position: relative;
+    display: grid;
+    grid-template: 1fr 1fr;
+}
+
+.search_title {
+    letter-spacing: 2px;
+    text-transform: uppercase;
+    font-size: 32px;
+    font-weight: 600;
+    text-align: center;
+}
+
+.city_search_box {
+    border: none;
+    outline: 0;
+    box-shadow: 0 0 10px 5px rgba(0,0,255,.1);
+    text-transform: uppercase;
+    font-size: 22px;
+    border-radius: 30px;
+    padding: 20px;
+    color: #131f69;
+    width: 80%;
+    justify-self: center;
+    align-self: center;
+}
+
+.search-icon {
+    height: 50%;
+    width: 50%;
+}
+
+.search_button {
+    background-color: #31feae;
+    position: absolute;
+    top: 5px;
+    right: 15px;
+    height: 90px;
+    width: 90px;
+    border-radius: 50%;
+    outline: 0;
+    border: none;
+    cursor: pointer;
+}
+
+.page_indicator_container {
+    display: flex;
+    justify-content: center;
+}
+
+.page_indicator {
+    height: 10px;
+    width: 10px;
+    border-radius: 50%;
+    border: 2px solid black;
+    margin: 8px;
+}
+
+.city_of_month {
+    border-radius: 0 25px 25px 0;
+    overflow: hidden;
+    flex: 1;
+    height: 100%;
+    position: relative;
+}
+
+.background_image {
+    position: absolute;
+    bottom: 0;
+    right: 0;
+    height: 100%;
+}
+
+.city_image_overlay {
+    position: absolute;
+    height: 100%;
+    width: 100%;
+    border-radius: 0 25px 25px 0;
+    background: rgba(43,36,77,.5);
+}
+
+.city_month_content {
+    padding: 30px 15px;
+}
+
+.city_month_header {
+    position: relative;
+    display: grid;
+    grid-template-columns: 1fr;
+    grid-template-rows: 1fr 1fr 1fr;
+    justify-items: center;
+}
+
+.city_month_title {
+    color: white;
+    font-size: 28px;
+    font-weight: 500;
+    text-transform: uppercase;
+}
+
+.city_underline {
+    width: 60px;
+    height: 2px;
+    border-top: 1px solid white;
+    align-self: center;
+}
+
+.city_date {
+    font-size: 20px;
+    color: white;
+}
+
+.weather_icon {
+    position: relative;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 40%;
+    padding-left: 30%;
+}
+
+.weather_icon > * {
+    flex: 1;
+}
+
+.city_weather_info {
+    position: relative;
+    display: grid;
+    grid-template-columns: 1fr;
+    justify-items: center;
+    grid-template-rows: 2fr 1fr 1fr 1fr;
+}
+
+.temperature {
+    color: white;
+    font-size: 72px;
+    font-weight: 500;
+}
+
+.city_name {
+    color: white;
+    font-size: 32px;
+    text-transform: uppercase;
+    font-weight: 500;
+    letter-spacing: 1px;
+}
+
+.climate {
+    color: white;
+    text-transform: uppercase;
+    letter-spacing: 5px;
+    font-size: 20px;
+    font-weight: 300;
+}
+
+.follow_button {
+    color: white;
+    text-transform: uppercase;
+    font-size: 16px;
+    font-weight: 500;
+    border: 2px solid white;
+    /* width: 100px; */
+    border-radius: 25px;
+    padding: 15px;
+    background-color: transparent;
+}
