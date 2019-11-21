@@ -1,5 +1,183 @@
 .container {
     background: linear-gradient(-225deg,#fff 0,#ffe29f 10%,#ffa99f 48%,#ffd1ff 100%);
-    height: 100vh;
     width: 100vw;
+    min-height: 90vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.weather_details_card {
+    display: flex;
+    flex-direction: column;
+    width: 70%;
+    margin: 5vh 0;
+    border-radius: 25px;
+}
+
+.weather_card {
+    position: relative;
+    min-height: 60vh;
+    background: url('../../../assets/cities/france.svg');
+    border-radius: 25px 25px 0 0;
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+}
+
+.weather_details {
+    color: white;
+    display: grid;
+    grid-template-rows: 1fr 1fr;
+    align-items: center;
+    justify-content: center;
+}
+
+.temperature_container {
+    display: grid;
+    grid-template-rows: 2fr 1fr;
+    justify-items: center;
+}
+
+.temperature {
+    font-size: 108px;
+}
+
+.weather_type {
+    font-size: 24px;
+    letter-spacing: 8px;
+    font-weight: 300;
+    text-transform: uppercase;
+}
+
+.humid_wind_container {
+    display: flex;
+    align-items: center;
+}
+
+.info_container {
+    display: grid;
+    grid-template-rows: 1fr 1fr;
+    align-items: center;
+    justify-items: center;
+    grid-gap: 20px;
+}
+
+.weather_title {
+    font-size: 16px;
+    text-transform: uppercase;
+    font-weight: 300;
+    letter-spacing: 5px;
+}
+
+.weather_value {
+    font-size: 20px;
+    font-weight: 300;
+}
+
+.humid_wind_seperator {
+    width: 2px;
+    height: 50px;
+    background: white;
+    margin: 0 30px;
+}
+
+.city_details {
+    color: white;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding-top: 20%;
+}
+
+.city_name {
+    font-size: 32px;
+    font-weight: 500;
+    letter-spacing: 5px;
+    text-transform: uppercase;
+}
+
+.hr_line {
+    width: 100px;
+}
+
+.info_card {
+    min-height: 50vh;
+    background: white;
+    border-radius: 0 0 25px 25px;
+    padding: 30px 5%;
+    display: grid;
+    grid-template-rows: 1fr 1fr;
+    grid-gap: 10px;
+}
+
+.twitter_feed_header {
+    display: grid;
+    grid-template-columns: 1fr 2fr 1fr;
+}
+
+
+.twitter_icon {
+    width: 30px;
+}
+
+.twitter_title {
+    font-weight: 400;
+    justify-self: center;
+}
+
+.hashtag {
+    color: #5f84fb;
+    justify-self: center;
+}
+
+.twitter_feed_content {
+    display: grid;
+    grid-template-rows: 1fr;
+    grid-template-columns: 1fr;
+}
+
+.feed_content {
+    justify-self: center;
+}
+
+.forecast_container {
+    display: flex;
+    flex-flow: row;
+    flex-wrap: wrap;
+    justify-self: center;
+}
+
+.days_container {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-flow: column;
+    margin: 20px 30px;
+}
+
+.day {
+    margin: 5px 0;
+    font-size: 24px;
+    font-weight: 600;
+    text-transform: uppercase;
+}
+
+.forecast_condition_icon {
+    margin: 5px 0;
+    height: 50px;
+}
+
+.feed_temperature {
+    margin: 5px 0;
+    font-size: 22px;
+    font-weight: 400;
+    letter-spacing: 3px;
+}
+
+.weather_type {
+    margin: 5px 0;
+    font-size: 12px;
+    font-weight: 300;
+    text-transform: uppercase;
+    letter-spacing: 2px;
 }
