@@ -1,0 +1,82 @@
+.container {
+    position: relative;
+    min-height: auto;
+    width: 25vw;
+    background: white;
+    border-radius: 25px;
+    box-shadow: 0 0 2rem rgba(0,0,255,.1);
+    padding: 20px;
+    display: grid;
+    margin: 0 20px;
+    grid-template-rows: 1fr 1fr 1fr 1fr;
+}
+
+.city_name {
+    text-align: center;
+    padding-top: 30px;
+}
+
+.city_text {
+    letter-spacing: 2px;
+}
+
+.weather_icon {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 40%;
+    padding-left: 30%;
+}
+
+.weather_icon > * {
+    flex: 1;
+}
+
+.temperature {
+    text-align: center;
+    padding: 15px;
+}
+
+.temperature_text {
+    font-size: 40px;
+    display: block;
+}
+
+.weather_condition {
+    display: block;
+}
+
+.min_max_container {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    border-radius: 0 0 25px 25px;
+}
+
+.min_arrow_icon, .max_arrow_icon {
+    height: 25px;
+    padding-left: 43%;
+}
+
+.temperature_value, .min_max_value {
+    text-align: center;
+}
+
+.add_city_button {
+    background: #2b244d;
+    color: white;
+    text-transform: uppercase;
+    border: 0;
+    outline: none;
+    font-size: 20px;
+    padding: 15px;
+    border-radius: 25px;
+    cursor: pointer;
+    position: absolute;
+    bottom: -10px;
+    left: 30%;
+}
+
+.add_city_button:hover {
+    background: #31feae;
+}
+  

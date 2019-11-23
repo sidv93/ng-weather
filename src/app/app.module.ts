@@ -19,6 +19,8 @@ import { WeatherComponent } from './weather/weather.component';
 import { WeatherCardComponent } from './weather/weather-card/weather-card.component';
 import { WeatherDetailsComponent } from './weather/weather-details/weather-details.component';
 import { AddCityComponent } from './weather/add-city/add-city.component';
+import { CityCardComponent } from './weather/add-city/city-card/city-card.component';
+import { AddCityCardComponent } from './weather/weather-home/add-city-card/add-city-card.component';
 
 @NgModule({
   declarations: [
@@ -34,6 +36,8 @@ import { AddCityComponent } from './weather/add-city/add-city.component';
     WeatherCardComponent,
     WeatherDetailsComponent,
     AddCityComponent,
+    CityCardComponent,
+    AddCityCardComponent,
   ],
   imports: [
     BrowserModule,
