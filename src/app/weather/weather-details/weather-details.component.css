@@ -2,6 +2,7 @@
     background: linear-gradient(-225deg,#fff 0,#ffe29f 10%,#ffa99f 48%,#ffd1ff 100%);
     width: 100vw;
     min-height: 90vh;
+    position: relative;
     display: flex;
     align-items: center;
     justify-content: center;
@@ -185,4 +186,13 @@
     font-weight: 300;
     text-transform: uppercase;
     letter-spacing: 2px;
+}
+
+.back_button_container {
+    height: 100px;
+    width: 100px;
+    cursor: pointer;
+    position: absolute;
+    top: 10vh;
+    left: 5%;
 }
